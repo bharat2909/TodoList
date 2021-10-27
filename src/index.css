@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@500&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+*{
+  font-family: 'Yeseva One', cursive;
+}
+body{
+  margin: 0;
+  background-color: lavenderblush;
+}
+.navbar{
+  display: flex;
+  background-color: black;
+  max-width: 1000px;
+  border-radius: 5px;
+  margin: 0 auto;
+  max-height: 60px;
+}
+.navbar h2{
+  color: blue;
+  font-size: 22px;
+  margin-left: 30px;
+}
+.navbar ul{
+  display: flex;
+  margin-left: auto;
+  margin-bottom: 5px;
+}
+.navbar li{
+  margin: 0 20px;
+  list-style: none;
+}
+.navbar a{
+  text-decoration: none;
+  color: blue;
+  font-size: 22px;
+}
+.card{
+  width: 28rem;
+  margin: 0 20px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  border-radius: 5px;
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.card-title{
+  color: cornflowerblue;
+}
+.card-text{
+  color: cornflowerblue;
+}
+.create{
+  border: 2px solid black;
+  display: flex;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 30px;
+  flex-direction: column;
+  background-color: dimgray;
+  height: 320px;
+}
+.create h2{
+  margin: 0 auto;
+  color: cornflowerblue;
+}
+.create input{
+  display: block;
+  margin: 10px auto;
+  width: 300px;
+  border-radius: 5px;
+}
+.create textarea{
+  display: block;
+  margin: 10px auto;
+  width: 300px;
+  border-radius: 5px;
+  border-bottom: dimgrey;
+  height: 70px;
+}
+.create label{
+  display: block;
+  margin: 10px auto;
+  width: 300px;
+  font-size: 23px;
+  color: cornflowerblue;
+}
+.bt{
+  border-radius: 6px;
+  margin: 10px 155px;
+  background-color: lightskyblue;
+}
+.fonty{
+  color: blue;
+  font-size: 19px;
+}
+.dark{
+  margin-right: 15px;
+}
+.bt1{
+  margin: 10px 450px;
+  border-radius: 6px;
+  background-color: yellow;
+}

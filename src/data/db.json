@@ -1,0 +1,14 @@
+{
+  "todos": [
+    {
+      "title": "go to gym",
+      "desc": "Workout",
+      "id": 1
+    },
+    {
+      "title": "Open laptop",
+      "desc": "Learn React",
+      "id": 3
+    }
+  ]
+}
